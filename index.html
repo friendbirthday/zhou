@@ -42,7 +42,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>请输入生日(格式：年月日)要用公历哟!</h1>
+        <h1>请输入生日(格式：年月日) 要用公历哟!</h1>
         <form id="keywordForm">
             <input type="text" id="keywordInput" required>
             <input type="submit" value="提交">
@@ -55,7 +55,7 @@
             var keyword = document.getElementById('keywordInput').value;
 
             // 根据关键字进行跳转
-            if (keyword === '20080323') { // 假设正确的关键字是 '20070812'
+            if (keyword === '20080323') { // 假设正确的关键字是 '20080323'
                 window.location.href = 'correct.html'; // 正确的关键字跳转到correct.html
             } else {
                 window.location.href = 'incorrect.html'; // 不正确的关键字跳转到incorrect.html
